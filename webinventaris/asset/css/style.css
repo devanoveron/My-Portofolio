@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+/*=======================================Start Login-form========================================*/
+.containerlogin{
+    margin-top: 6%;
+    width: 60%;
+    height: 400px;
+    background-color: #1D87BE;
+    border-radius: 30px;
+}
+.containerlogin h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.kotaklogin{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+.formlogin{
+    padding-top: 50px;
+}
+.formlogin input[type=text], input[type=password]{
+    width: 65%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.formlogin input[type=password]{
+    margin-top: px;
+}
+.formlogin label{
+    margin-right: 55%;
+}
+
+.formlogin label a{
+    font-weight: bold;
+    margin-left: 50%;
+    text-decoration: none;
+    color: #707070;
+}
+.formlogin button[type=submit]{
+    margin-top: 7%;
+    background-color: #1D87BE;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.formlogin button:hover{
+    opacity: 0.8;
+}
+.dftr{
+    margin-top: 7%;
+    background-color: #1D87BE;
+    border: none;
+    text-decoration: none;
+    padding: 9px 27px 9px 27px;
+    border-radius: 20px;
+    color: white;
+}
+.lgnpetugas a{
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+
+/*=================================End Login===============================*/
+/*=================================Start Daftar=============================*/
+
+.containerdaftar{
+    width: 60%;
+    height: 400px;
+    background-color: #1D87BE;
+    border-radius: 30px;
+}
+.containerdaftar h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.kotakdaftar{
+    width: 100%;
+    height: 450px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: white;
+}
+.formdaftar{
+    padding-top: 10px;
+}
+.formdaftar input[type=text], input[type=password]{
+    width: 65%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.formdaftar input[type=password]{
+    margin-top: px;
+}
+.formdaftar label{
+    margin-right: 55%;
+}
+
+.formdaftar label a{
+    font-weight: bold;
+    margin-left: 50%;
+    text-decoration: none;
+    color: #707070;
+}
+.formdaftar button[type=submit]{
+    margin-top: 7%;
+    background-color: #1D87BE;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.formdaftar button:hover{
+    opacity: 0.8;
+}
+.dftrform{
+    margin-top: 7%;
+    background-color: #1D87BE;
+    border: none;
+    text-decoration: none;
+    padding: 9px 27px 9px 27px;
+    border-radius: 20px;
+    color: white;
+}
+
+/*=================================End Daftar=============================*/
+
+/*=================================Start Dashboard==========================*/
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: #1D87BE;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+}
+.header button{
+    margin-left: 85%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.logo {
+    margin-left: 29px;
+}
+h2{
+  position: absolute;
+  font-weight: bold;
+  top: 30px;
+  left: 100px;
+  color: white;
+}
+.header p{
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-left: 83%;
+    font-size: 30px;
+}
+.wrap .body .sidebar{
+ padding: 0;
+ margin: 0;
+ width: 250px;
+ float: left;
+ height: 1000px;
+ background-color:#707070;
+}
+.sidebar a:hover{
+    background-color: grey;
+}
+.wrap .body .sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrap .body .sidebar i{
+    margin-right: 10px;
+    color: white;
+}
+.wrap .body .sidebar li{
+    padding: 6px;
+}
+
+.wrap .body .sidebar ul{
+    list-style: none;
+}
+.wrap .body .konten a{
+    text-decoration: none;
+    width: 75%;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 19px;
+}
+/*=================================End Dashboard==========================*/
+/*=================================Start Barang==========================*/
+.kontenbarang{
+    margin-top: 50px;
+    margin-left: 250px; 
+}
+.table{
+    margin: auto;
+    text-align: center;
+}
+.kontenbarang h3{
+    font-weight: bold;
+    text-align: center;
+}
+.kontenbarang a{
+    margin-left: 10px;
+}
+/*===================================End Barang==========================*/
+/*==================================Start Tambah======================*/
+.kontentambah {
+    margin-top: 50px;
+    margin-left: 300px;  
+}
+.kontentambah h3{
+    font-weight: bold;
+}
+.form{
+    margin-left: 3%;
+}
+/*==================================End Tambah======================*/
+/*==================================Start Pengguna======================*/
+.homepengguna h3{
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 300px;
+    
+}
+.homepengguna a{
+    text-decoration: none;
+    width: 75%;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 19px;
+}
+/*==================================End Pengguna======================*/
+/*==================================Start Detailbarang======================*/
+
+.detailbrg{
+        margin-left: 35%;
+        margin-top: 27px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+}
+
+/*==================================End Detailbarnag======================*/
+/*==================================Start Dashboard Operator======================*/
+.headeroperator{
+    width: 100%;
+    height: 100px;
+    background-color: #1D87BE;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .headeroperator button{
+      margin-left: 85%;
+      padding: 15px;
+      border-radius: 30px;
+  }
+  
+  .logo {
+      margin-left: 29px;
+  }
+  h2{
+    position: absolute;
+    font-weight: bold;
+    top: 30px;
+    left: 100px;
+    color: white;
+  }
+  .headeroperator p{
+      font-weight: bold;
+      color: white;
+      margin-top: 20px;
+      margin-left: 80%;
+      font-size: 30px;
+  }
+  /*==================================End Dashboard Operator======================*/
+  /*==================================Start Dashboard User======================*/
+  .headeruser{
+    width: 100%;
+    height: 100px;
+    background-color: #1D87BE;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .headeruser button{
+      margin-left: 85%;
+      padding: 15px;
+      border-radius: 30px;
+  }
+  
+  .logo {
+      margin-left: 29px;
+  }
+  h2{
+    position: absolute;
+    font-weight: bold;
+    top: 30px;
+    left: 100px;
+    color: white;
+  }
+  .headeruser p{
+      font-weight: bold;
+      color: white;
+      margin-top: 20px;
+      margin-left: 83%;
+      font-size: 30px;
+  }
